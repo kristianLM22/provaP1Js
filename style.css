@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 500px;
+    border: 1px solid #000000;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+
+.form{
+    border: 1px solid #000000;
+    display: block;
+    width: 500px;
+    padding: 30px;
+
+}
+
+p{
+    display:flex;
+    width: min-content;
+}
+
+#inputNome{
+    width: 300px;
+    padding: 2px;
+}
+
+#inputTel{
+    width: 300px;
+    padding: 2px;
+}
+
+#btn-enviar, #btn-limpar{
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.list{
+    width: 500px;
+    
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#listaNomes{
+    border: none;
+    margin-right: 100px;
+    text-decoration: none;
+}
+#listaTels{
+    border: none;
+    text-decoration: none;
+}
+
+
